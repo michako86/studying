@@ -1,0 +1,3 @@
+# Логины и пароли пользователей
+vasya:password
+petya:mega-password

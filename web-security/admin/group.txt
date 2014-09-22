@@ -1,0 +1,2 @@
+admins: vasya
+managers: petya lena

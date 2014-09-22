@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Новостная лента</title>
+    <title>http://localhost/php-l3/news/news.php</title>
+    <item>
+      <title>zvxvcxvxc</title>
+      <link>http://localhost/php-l3/news/news.php?id=10</link>
+      <description>cxvxcvxcvxcvxc</description>
+      <pubDate>Fri, 29 Aug 2014 15:10:55 +0400</pubDate>
+      <category>Культура</category>
+    </item>
+    <item>
+      <title>вававав</title>
+      <link>http://localhost/php-l3/news/news.php?id=6</link>
+      <description>ввавававсковский футбольный клусковский футбольный клу</description>
+      <pubDate>Tue, 18 Feb 2014 23:39:57 +0400</pubDate>
+      <category>Политика</category>
+    </item>
+    <item>
+      <title>dfdf</title>
+      <link>http://localhost/php-l3/news/news.php?id=5</link>
+      <description>dfdfdf</description>
+      <pubDate>Fri, 14 Feb 2014 20:01:24 +0400</pubDate>
+      <category>Политика</category>
+    </item>
+    <item>
+      <title>На открытие стадиона «Спартака» приедет киевское «Динамо»</title>
+      <link>http://localhost/php-l3/news/news.php?id=3</link>
+      <description>Московский футбольный клуб «Спартак» определился с соперником на выставочный матч, приуроченный к открытию собственного стадиона. 24 июля красно-белые встретятся на «Открытие Арене» с киевским «Динамо». Ранее сообщалось, что соперником «Спартака» может стать мадридский «Реал» или «Манчестер Юнайтед».</description>
+      <pubDate>Fri, 14 Feb 2014 18:56:51 +0400</pubDate>
+      <category>Спорт</category>
+    </item>
+    <item>
+      <title>Увы, мой стих не блещет новизной</title>
+      <link>http://localhost/php-l3/news/news.php?id=2</link>
+      <description>В 2014 году мир отмечает 450-летие Уильяма Шекспира. К юбилею великого англичанина почти каждый московский театр готовит спектакль по его пьесе. В сезоне 2013/2014 на столичных сценах одновременно идут 10 «Гамлетов», причем три из них — премьеры. Режиссеры пытаются показать неожиданное прочтение шекспировских пьес, что довольно непросто, когда речь идет о произведениях с четырехвековой историей постановок.</description>
+      <pubDate>Fri, 14 Feb 2014 18:56:24 +0400</pubDate>
+      <category>Культура</category>
+    </item>
+    <item>
+      <title>Госдума приняла закон о смешанной системе парламентских выборов</title>
+      <link>http://localhost/php-l3/news/news.php?id=1</link>
+      <description>Депутаты Госдумы приняли в третьем чтении закон, который возвращает в России смешанную систему парламентских выборов: по партийным спискам и по одномандатным округам. Не представленным в Думе партиям придется собрать 200 тысяч подписей для выдвижения списка кандидатов на выборы.</description>
+      <pubDate>Fri, 14 Feb 2014 18:54:49 +0400</pubDate>
+      <category>Политика</category>
+    </item>
+  </channel>
+</rss>

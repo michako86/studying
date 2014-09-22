@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Admins only"
+AuthUserFile "C:\Users\Public\WebServer\apache\htdocs\web-security\admin\users.txt"
+AuthGroupFile "C:\Users\Public\WebServer\apache\htdocs\web-security\admin\group.txt"
+#Require valid-user
+#Require user petya
+require group admins

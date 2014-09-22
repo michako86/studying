@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <title>Пример сортировки</title>
+    </head>
+    <body>
+        <ul>
+            <li>title: Opera<br>author: Петр Петров<br>price: 20<br>
+            </li>
+            <li>title: Dinamic HTML<br>author: Алекс Хоумер<br>price: 120<br>
+            </li>
+            <li>title: Технология XSLT<br>author: Алексей Валиков<br>price: 150<br>
+            </li>
+            <li>title: Mozilla<br>author: Виталий Иванов<br>price: 170<br>
+            </li>
+            <li>title: XML и IE5<br>author: Алекс Гомер<br>price: 200<br>
+            </li>
+        </ul>
+    </body>
+</html>

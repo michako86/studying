@@ -1,0 +1,57 @@
+#
+AddDefaultCharset UTF-8
+# Обязательное условие
+#Options Indexes +FollowSymLinks
+#Options +SymLinksIfOwnerMatch
+#Options +FollowSymlinks
+#RewriteBase /
+
+# Включаем mod_rewrite
+RewriteEngine off
+
+# http://lenta.ru/news/2009/07/20/
+# http://lenta.ru/index.php?cat=news&year=2009&mon=07day=20
+
+#Условие
+#RewriteCond %{HTTP_USER_AGENT} ^Mozilla.*
+#RewriteRule ^/$ /mozilla.html [L]
+#RewriteCond %{HTTP_USER_AGENT} ^Opera.*
+#RewriteRule ^/$ /opera.html [L]
+#RewriteRule ^/$ /default.html
+
+#########################################
+# с www на без
+
+#RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+#RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
+# без www на www
+
+#RewriteCond %{HTTP_HOST} !^www\.(.*) [NC]
+#RewriteRule ^(.*)$ http://www.%1/$1 [R=301,L]
+
+#########################################
+#чтобы не крали картинки с сайта по прямой сссылке на мой сайт
+
+#RewriteCond %{HTTP_REFERER} ^$ [NC]
+#RewriteRule \.gif$ /bad.jpg
+
+########################################
+
+#RewriteCond %{REQUEST_FILENAME} ^(.*)$
+#RewriteRule (.*) /%1 [L]
+
+
+#RewriteCond %{REQUEST_FILENAME} -f
+#RewriteCond %{REQUEST_FILENAME} -d
+#RewriteRule ^([a-zA-z]+)/?$ /$1 [NS,L]
+#RewriteRule ^(.*)$ /index.php?query=$1
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+# ^ - с начала строки $ - конец строки
+RewriteRule ^([a-zA-z]+)/([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/?$ /index.php?cat=$1&year=$2&mon=$3&day=$4 [L]
+
+RewriteRule ^([a-zA-z]+)/([0-9]{4})/([0-9]{1,2})/?$ /index.php?cat=$1&year=$2&mon=$3 [NS,L]
+RewriteRule ^([a-zA-z]+)/([0-9]{4})/?$ /index.php?cat=$1&year=$2 [NS,L]
+RewriteRule ^([a-zA-z]+)/?$ /index.php?cat=$1 [NS,L]

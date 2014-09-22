@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2014 09:09:35 GMT
+Server: Apache/2.2.25 (Win32) PHP/5.3.29
+Last-Modified: Tue, 29 Jun 2010 15:58:16 GMT
+ETag: "a00000002c4d2-34-48a2d4e2d4818"
+Accept-Ranges: bytes
+Content-Length: 52
+Content-Type: text/plain
+

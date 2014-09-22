@@ -1,0 +1,84 @@
+/*		CSS определения для лабораторного приложения
+ **  
+ */
+ 
+/* Основные правила */ 
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Tahoma, Sans-Serif;
+	font-size: 11pt;
+	background-color: #fff;
+}
+
+/* Шапка */
+#header
+{
+	position: absolute;
+	top: 0px; 
+	left: 0px;
+	width: 100%;
+	height: 70px;
+	background-color: #bbd;
+	overflow: hidden;
+}
+#header h1
+{
+	text-align: center;
+	color: #fff;
+}
+
+/* Блок основного контента */
+#content
+{
+	margin-top: 80px;
+	margin-left: 200px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+/* Навигационный блок */
+#navigation
+{
+	position: absolute;
+	top: 70px; 
+	left: 0px;
+	width: 190px;
+	background-color: #ddf;
+}
+#navigation ul
+{
+	list-style-type: none;
+}
+#navigation ul li
+{
+	margin-left: -30px;
+	margin-right: 10px;
+}
+#navigation ul li a
+{
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid gray;
+	text-decoration: none;
+	color: black;
+}
+
+#frmLogin
+{
+	width: 20em;
+	margin: auto;
+}
+
+#frmLogin #buttonDiv, #frmLogin #errorMessage
+{
+	text-align: center;
+}
+
+#errorMessage
+{
+	color: red;
+	font-weight: bold;
+}

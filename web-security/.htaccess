@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+php_flag session.auto_start 1
+php_flag register_globals 1
+php_flag magic_quotes_gpc 0
+php_flag allow_url_fopen 1
+php_flag allow_url_include 1
+php_flag register_long_arrays 0

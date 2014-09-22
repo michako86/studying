@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Применение простых типов -->
+<list
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="demo3-5.xsd" >
+	<number>55</number>
+	<age>10</age>
+	<phone>777-99-99</phone>
+	<workdays>Среда</workdays>
+</list>
