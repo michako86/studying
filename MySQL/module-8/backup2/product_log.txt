@@ -1,0 +1,8 @@
+2011-03-03 16:07:37	root@localhost	2	150	75
+2011-03-03 16:09:59	root@localhost	1	123	147.6
+2011-03-03 16:09:59	root@localhost	2	75	90
+2011-03-03 16:09:59	root@localhost	3	187	224.4
+2011-03-03 16:09:59	root@localhost	4	300	360
+2011-03-03 16:09:59	root@localhost	5	225	270
+2011-03-03 16:09:59	root@localhost	5	270	\N
+2011-03-03 16:09:59	root@localhost	10	\N	123

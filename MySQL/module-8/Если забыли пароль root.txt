@@ -1,0 +1,14 @@
+﻿1. Остановить службу
+
+2. Запустить 
+	mysqld --skip-grant-tables
+	
+3. Зайти на сервер mysql не укзаывая логин и пароль
+
+4. Выполнить запрос:
+	UPDATE mysql.user SET password = PASSWORD('90148')
+		WHERE user = 'root'
+
+5. Остановить mysqld
+
+6. Запустить службу

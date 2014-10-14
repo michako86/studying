@@ -1,0 +1,4 @@
+table_name	table_rows
+courses	7
+lessons	28
+teachers	5

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<resultset statement="select * from world.city where Name = 'Moscow'
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="ID">3580</field>
+	<field name="Name">Moscow</field>
+	<field name="CountryCode">RUS</field>
+	<field name="District">Moscow (City)</field>
+	<field name="Population">8389200</field>
+  </row>
+</resultset>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<resultset statement="CALL module6.sp_table_records_2('module6')
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="table_name">courses</field>
+	<field name="table_rows">7</field>
+  </row>
+
+  <row>
+	<field name="table_name">lessons</field>
+	<field name="table_rows">28</field>
+  </row>
+
+  <row>
+	<field name="table_name">teachers</field>
+	<field name="table_rows">5</field>
+  </row>
+</resultset>
